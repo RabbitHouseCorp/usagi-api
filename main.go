@@ -11,14 +11,12 @@ type Data struct {
 	Url string
 }
 
-
-func dance() {
+func dance() Data {
 	api  := "https://usagiapi.danielagc.repl.co/"
 	res, err := http.Get(api + "api/dance")
 
 	if err != nil {
 		fmt.Println("Failed of communication with API ~> Usagi API")
-		return
 	}
 
 	defer res.Body.Close()
@@ -29,20 +27,18 @@ func dance() {
 
 	if error != nil {
 		fmt.Println("Failed with decoding of JSON ~> Usagi API")
-		return
 	}
 
-	fmt.Println(data.Url)
+	return data
 }
 
 
-func feed() {
+func feed() Data {
 	api  := "https://usagiapi.danielagc.repl.co/"
 	res, err := http.Get(api + "api/feed")
 
 	if err != nil {
 		fmt.Println("Failed of communication with API ~> Usagi API")
-		return
 	}
 
 	defer res.Body.Close()
@@ -53,20 +49,18 @@ func feed() {
 
 	if error != nil {
 		fmt.Println("Failed with decoding of JSON ~> Usagi API")
-		return
 	}
 
-	fmt.Println(data.Url)
+	return data
 }
 
 
-func hug() {
+func hug() Data {
 	api  := "https://usagiapi.danielagc.repl.co/"
 	res, err := http.Get(api + "api/hug")
 
 	if err != nil {
 		fmt.Println("Failed of communication with API ~> Usagi API")
-		return
 	}
 
 	defer res.Body.Close()
@@ -77,20 +71,18 @@ func hug() {
 
 	if error != nil {
 		fmt.Println("Failed with decoding of JSON ~> Usagi API")
-		return
 	}
 
-	fmt.Println(data.Url)
+	return data
 }
 
 
-func kiss() {
+func kiss() Data {
 	api  := "https://usagiapi.danielagc.repl.co/"
 	res, err := http.Get(api + "api/kiss")
 
 	if err != nil {
 		fmt.Println("Failed of communication with API ~> Usagi API")
-		return
 	}
 
 	defer res.Body.Close()
@@ -101,20 +93,18 @@ func kiss() {
 
 	if error != nil {
 		fmt.Println("Failed with decoding of JSON ~> Usagi API")
-		return
 	}
 
-	fmt.Println(data.Url)
+	return data
 }
 
 
-func pat() {
+func pat() Data {
 	api  := "https://usagiapi.danielagc.repl.co/"
 	res, err := http.Get(api + "api/pat")
 
 	if err != nil {
 		fmt.Println("Failed of communication with API ~> Usagi API")
-		return
 	}
 
 	defer res.Body.Close()
@@ -125,21 +115,19 @@ func pat() {
 
 	if error != nil {
 		fmt.Println("Failed with decoding of JSON ~> Usagi API")
-		return
 	}
 
-	fmt.Println(data.Url)
+	return data
 }
 
 
 
-func poke() {
+func poke() Data {
 	api  := "https://usagiapi.danielagc.repl.co/"
 	res, err := http.Get(api + "api/poke")
 
 	if err != nil {
 		fmt.Println("Failed of communication with API ~> Usagi API")
-		return
 	}
 
 	defer res.Body.Close()
@@ -150,21 +138,19 @@ func poke() {
 
 	if error != nil {
 		fmt.Println("Failed with decoding of JSON ~> Usagi API")
-		return
 	}
 
-	fmt.Println(data.Url)
+	return data
 }
 
 
 
-func slap() {
+func slap() Data {
 	api  := "https://usagiapi.danielagc.repl.co/"
 	res, err := http.Get(api + "api/slap")
 
 	if err != nil {
 		fmt.Println("Failed of communication with API ~> Usagi API")
-		return
 	}
 
 	defer res.Body.Close()
@@ -175,21 +161,19 @@ func slap() {
 
 	if error != nil {
 		fmt.Println("Failed with decoding of JSON ~> Usagi API")
-		return
 	}
 
-	fmt.Println(data.Url)
+	return data
 }
 
 
 
-func tickle() {
+func tickle() Data {
 	api  := "https://usagiapi.danielagc.repl.co/"
 	res, err := http.Get(api + "api/tickle")
 
 	if err != nil {
 		fmt.Println("Failed of communication with API ~> Usagi API")
-		return
 	}
 
 	defer res.Body.Close()
@@ -200,8 +184,7 @@ func tickle() {
 
 	if error != nil {
 		fmt.Println("Failed with decoding of JSON ~> Usagi API")
-		return
-	}
+	} 
 
-	fmt.Println(data.Url)
+	return data
 }
