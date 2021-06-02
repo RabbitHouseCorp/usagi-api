@@ -8,40 +8,40 @@ import (
 
 // Endpoint: Dance
 func Dance() string {
-	return rest.Api("/api/dance").Dance
+	return rest.Api("/api/dance").Url
 }
 
 // Endpoint: Feed
 func Feed() string {
-	return rest.Api("/api/feed").Feed
+	return rest.Api("/api/feed").Url
 }
 
 // Endpoint: Hug
 func Hug() string {
-	return rest.Api("/api/hug").Hug
+	return rest.Api("/api/hug").Url
 }
 
 // Endpoint: Kiss
 func Kiss() string {
-	return rest.Api("/api/kiss").Kiss
+	return rest.Api("/api/kiss").Url
 }
 
 // Endpoint: Pat
 func Pat() string {
-	return rest.Api("/api/pat").Pat
+	return rest.Api("/api/pat").Url
 }
 
 // Endpoint: Poke
 func Poke() string {
-	return rest.Api("/api/poke").Poke
+	return rest.Api("/api/poke").Url
 }
 
 // Endpoint: Slap
 func Slap() string {
-	return rest.Api("/api/slap").Slap
+	return rest.Api("/api/slap").Url
 }
 
 // Endpoint: Tickle
 func Tickle() string {
-	return rest.Api("/api/tickle").Tickle
+	return rest.Api("/api/tickle").Url
 }

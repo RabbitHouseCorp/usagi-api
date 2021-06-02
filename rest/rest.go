@@ -27,7 +27,7 @@ type DataAPI struct {
 }
  
 
-func Api(endpoint string) DataAPI {
+func Api(endpoint string) Data {
 	api  := "https://usagiapi.danielagc.repl.co" + endpoint
 	res, err := http.Get(api)
 
@@ -37,7 +37,7 @@ func Api(endpoint string) DataAPI {
 
 	defer res.Body.Close()
 
-	var data DataAPI
+	var data Data
 	
 	error := json.NewDecoder(io.Reader(res.Body)).Decode(&data)
 
