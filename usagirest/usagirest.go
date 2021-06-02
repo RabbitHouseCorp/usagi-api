@@ -1,4 +1,7 @@
-package rest
+// 📦 Usagi Rest
+//
+// To create requests in the API
+package usagirest
 
 import (
 	"fmt"

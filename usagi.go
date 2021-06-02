@@ -1,47 +1,47 @@
+// 📦 Usagi API
+//
+//
+// 🔗 Github Package: https://github.com/RabbitHouseCorp/usagi-api
 package usagiapi
 
-import (
-	"github.com/RabbitHouseCorp/usagi-api/rest"
-) 
- 
-
+import "github.com/RabbitHouseCorp/usagi-api/usagirest"
 
 // Endpoint: Dance
 func Dance() string {
-	return rest.Api("/api/dance").Url
+	return usagirest.Api("/api/dance").Url
 }
 
 // Endpoint: Feed
 func Feed() string {
-	return rest.Api("/api/feed").Url
+	return usagirest.Api("/api/feed").Url
 }
 
 // Endpoint: Hug
 func Hug() string {
-	return rest.Api("/api/hug").Url
+	return usagirest.Api("/api/hug").Url
 }
 
 // Endpoint: Kiss
 func Kiss() string {
-	return rest.Api("/api/kiss").Url
+	return usagirest.Api("/api/kiss").Url
 }
 
 // Endpoint: Pat
 func Pat() string {
-	return rest.Api("/api/pat").Url
+	return usagirest.Api("/api/pat").Url
 }
 
 // Endpoint: Poke
 func Poke() string {
-	return rest.Api("/api/poke").Url
+	return usagirest.Api("/api/poke").Url
 }
 
 // Endpoint: Slap
 func Slap() string {
-	return rest.Api("/api/slap").Url
+	return usagirest.Api("/api/slap").Url
 }
 
 // Endpoint: Tickle
 func Tickle() string {
-	return rest.Api("/api/tickle").Url
+	return usagirest.Api("/api/tickle").Url
 }
