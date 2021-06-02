@@ -4,7 +4,7 @@
 // 🔗 Github Package: https://github.com/RabbitHouseCorp/usagi-api
 package usagiapi
 
-import "github.com/RabbitHouseCorp/usagi-api/usagirest"
+import "github.com/RabbitHouseCorp/usagi-api/v1/usagirest"
 
 // Endpoint: Dance
 func Dance() string {
