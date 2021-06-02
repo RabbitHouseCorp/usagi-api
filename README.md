@@ -1,8 +1,34 @@
-# Usagi API - Wrapper
+## 📦 `Usagi API - Wrapper`
 This library is simple and easy to use and was developed entirely for **Usagi API** written in **Go Lang**.
 
 
-## Library
+### 👨‍🏫 Example
+```go
+package main
+
+import (
+	"fmt" // Package log
+	usagi "github.com/RabbitHouseCorp/usagi-api" // Import the package
+)
+
+func main() {
+	fmt.Println(usagi.Dance()) // Returns ~> Returns to a URL
+}
+```
+
+### 🔌 Functions
+Functions that are available in the library are:
+- Dance
+- Feed
+- Hug
+- Kiss
+- Pat
+- Poke
+- Slap
+- Tickle
+
+
+### 🙂💻 Library
 Looking for other libraries? Check out these libraries with other language support.
 
 **Kotlin:**
