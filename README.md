@@ -26,6 +26,9 @@ Functions that are available in the library are:
 - Poke
 - Slap
 - Tickle
+- Bite
+- Bowdown
+- Wasted
 
 
 ### 🙂💻 Library
