@@ -45,3 +45,18 @@ func Slap() string {
 func Tickle() string {
 	return usagirest.Api("/api/tickle").Url
 }
+
+// Endpoint: Bite
+func Bite() string {
+	return usagirest.Api("/api/bite").Url
+}
+
+// Endpoint: Bowdown
+func Bowdown() string {
+	return usagirest.Api("/api/bowdown").Url
+}
+
+// Endpoint: Wasted
+func Wasted() string {
+	return usagirest.Api("/api/wasted").Url
+}
