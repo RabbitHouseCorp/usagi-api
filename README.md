@@ -37,15 +37,15 @@ Looking for other libraries? Check out these libraries with other language suppo
 - **Kotlin:**
   - [UsagiAPISimple written by ShadowB64](https://github.com/ShadowB64/UsagiAPISimple)
 - **Java:**
-  - [UsagiAPI written by NavyCake](https://github.com/NavyCake/usagi-api)
+  - [UsagiAPI written by NavyCake](https://github.com/nayvcake/usagi-api)
 - **JavaScript:**
   - [UsagiAPI written by DanielaGC](https://github.com/DanielaGC/UsagiAPI)
 - **Dart**
-  - [UsagiAPI-dart written by NavyCake](https://github.com/NavyCake/usagiapi-dart)
+  - [UsagiAPI-dart written by NavyCake](https://github.com/nayvcake/usagiapi-dart)
 - **Python**
-  - [UsagiAPI-py written by NavyCake](https://github.com/NavyCake/usagiapi-py)
+  - [UsagiAPI-py written by NavyCake](https://github.com/nayvcake/usagiapi-py)
 - **Rust**
-  - [UsagiAPI-rs written by NavyCake](https://github.com/NavyCake/usagi-rust)
+  - [UsagiAPI-rs written by NavyCake](https://github.com/nayvcake/usagi-rust)
 
 
 
