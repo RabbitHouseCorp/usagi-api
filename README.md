@@ -44,6 +44,8 @@ Looking for other libraries? Check out these libraries with other language suppo
   - [UsagiAPI-dart written by NavyCake](https://github.com/NavyCake/usagiapi-dart)
 - **Python**
   - [UsagiAPI-py written by NavyCake](https://github.com/NavyCake/usagiapi-py)
+- **Rust**
+  - [UsagiAPI-rs written by NavyCake](https://github.com/NavyCake/usagi-rust)
 
 
 
