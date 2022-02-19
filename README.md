@@ -35,7 +35,7 @@ Functions that are available in the library are:
 Looking for other libraries? Check out these libraries with other language support.
 
 - **Kotlin:**
-  - [UsagiAPISimple written by ShadowB64](https://github.com/ShadowB64/UsagiAPISimple)
+  - Github or project has been removed.
 - **Java:**
   - [UsagiAPI written by NavyCake](https://github.com/nayvcake/usagi-api)
 - **JavaScript:**
